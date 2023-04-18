@@ -1,0 +1,73 @@
+#menu ul li{
+    display:inline;
+    }
+    #menu ul a{
+    text-decoration:none;
+    width:129px;
+    float:left;
+    background:#73d89f;
+    color:#fff;
+    font-weight:bold;
+    text-align:center;
+    line-height:35px;
+    border-left:1px solid #fff;
+    }
+<style>
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans & display=swap');
+{
+    padding: 0;
+    margin: 0;
+}
+#wrapper{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'open Sans', sans-serif;
+    font-size: 14px;
+   color:#111 ;
+    line-height: 1.15;
+}
+.headline{
+    text-align: center;
+    margin: 40px 0px;
+}
+h3{
+    font-size: 18px;
+    color: #111;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid #bebebe;
+    display: inline-block;
+    color: #555
+}
+ul.products{
+    list-style: none ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+ul.product li{
+    flex-basis: 15%;
+    padding-left:10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+ul.product li img{
+    max-width: 100% ;
+    height="auto";
+}
+.sub-menu{
+    width: 150%;
+    padding: 5px 0px;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    z-index: -1;
+    opacity: 0;
+    transition: opasity linear 0.15s;
+    box-shadow: opx 2px 3px rgb(red, green, blue)
+    background:#73d89f
+}
+</style>
